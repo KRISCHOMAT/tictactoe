@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>tic tac toe</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <div class="header">
+        <div class="logo">
+          <span class="x">X</span>
+          <span class="o">O</span>
+        </div>
+        <div class="turn-cell"><span id="turn">X</span> Turn</div>
+        <button id="refresh">refresh</button>
+      </div>
+      <!-- GameField -->
+      <div id="game-field">
+        <button name="a" class="btn-game"></button>
+        <button name="b" class="btn-game"></button>
+        <button name="c" class="btn-game"></button>
+        <button name="d" class="btn-game"></button>
+        <button name="e" class="btn-game"></button>
+        <button name="f" class="btn-game"></button>
+        <button name="g" class="btn-game"></button>
+        <button name="h" class="btn-game"></button>
+        <button name="i" class="btn-game"></button>
+      </div>
+      <!-- Footer -->
+      <div class="footer">
+        <div class="x-score-cell">x-score <span id="x-score">0</span></div>
+        <div class="ties-cell">ties <span id="ties">0</span></div>
+        <div class="o-score-cell">o-score <span id="o-score">0</span></div>
+      </div>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
